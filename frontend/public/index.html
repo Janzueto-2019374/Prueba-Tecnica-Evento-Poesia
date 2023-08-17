@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Formulario de Inscripción</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Inscripción al Evento de Poesía</h1>
+    <form id="poetry-form">
+      <label for="carnet">Carnet:</label>
+      <input type="text" id="carnet" name="carnet" required pattern="A[0-9]{3}[139]">
+      <!-- Agrega los demás campos del formulario -->
+      <button type="submit">Enviar Inscripción</button>   
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

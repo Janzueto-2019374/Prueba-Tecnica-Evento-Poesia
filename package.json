@@ -1,0 +1,17 @@
+{
+  "name": "formulario-poesia-backend",
+  "version": "1.0.0",
+  "description": "prueba técnica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josecarlos Anzueto Rodas",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3"
+  }
+}
